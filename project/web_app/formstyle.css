@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4FDA8C;
+}
+
+input {
+    font: 16px/26px "Raleway", sans-serif;
+}
+
+body {
+    color: white;
+    background-image: url('https://source.unsplash.com/dLFmwIOGNYo');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 16px/26px "Raleway", sans-serif;
+}
+
+.container {
+    background-color: #624F82;
+    border-radius: 15px;
+    width: 320px;
+    margin: 3em auto;
+    box-shadow: 0px 1px 10px #3F3B6C;
+    -webkit-box-shadow: 0px 1px 10px #3F3B6C;
+    -moz-box-shadow: 0px 1px 10px #3F3B6C;
+    border: #3F3B6C solid 2px;
+}
+
+.container .tabs {
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.container .tabs h3 {
+    float: left;
+    width: 50%;
+}
+
+.container .tabs h3 a {
+    padding: 0.5em 0;
+    text-align: center;
+    font-weight: 500;
+    background-color: #3F3B6C;
+    display: block;
+    color: white;
+}
+
+.container .tabs h3 a.active {
+    background-color: #624F82;
+}
+
+.container .tabs-content {
+    padding: 1.5em;
+}
+
+.container .tabs-content div[id$="tab-content"] {
+    display: none;
+}
+
+.container .tabs-content .active {
+    display: block !important;
+}
+
+.container form .input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #3F3B6C;
+    font-family: inherit;
+    padding: 9px 14px;
+    border: 2px solid white;
+    outline: 0;
+    display: inline-block;
+    margin: 0 0 .8em 0;
+    padding-right: 2em;
+    width: 100%;
+}
+
+.container form .input:hover{
+    border: #3F3B6C solid 2px;
+}
+
+.container form .button {
+    width: 100%;
+    margin-top: 7px;
+    font-size: 20px;
+    padding: 10px 3px;
+    background-color: #9F73AB;
+    border: 2px solid #3F3B6C;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container form .button:hover {
+    background-color: #A3C7D6;
+    color: #3F3B6C;
+    border: 2px solid #3F3B6C;
+}
+.table-wrapper{
+    margin: 30px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+.fdata {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.fdata td, .fdata th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fdata td {
+    border-right: 1px solid #3F3B6C;
+    font-size: 20px;
+}
+
+.fdata thead th {
+    color: #ffffff;
+    background: #3F3B6C;
+    border-right: 1px solid white;
+    font-size: 22px;
+}
+
+.fdata tr{
+    color: #3F3B6C;
+    background-color: lavender;
+}
